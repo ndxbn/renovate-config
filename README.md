@@ -9,4 +9,5 @@ My default renovate config file.
 {
   "extends": ["github>ndxbn/renovate-config"]
 }
+
 ```
