@@ -5,6 +5,8 @@
     ":disableDependencyDashboard",
     ":semanticCommits",
     ":maintainLockFilesWeekly",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimitNone",
     "group:allNonMajor",
     ":automergeMinor",
     ":automergeTypes",
