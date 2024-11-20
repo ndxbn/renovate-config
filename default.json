@@ -8,6 +8,7 @@
     ":prHourlyLimitNone",
     ":prConcurrentLimitNone",
     "group:allNonMajor",
+    "group:allDigest",
     ":automergeMinor",
     ":automergeTypes",
     ":automergeRequireAllStatusChecks"
