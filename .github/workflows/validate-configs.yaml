@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  build:
+  validate-config:
     runs-on: ubuntu-latest
 
     env:
