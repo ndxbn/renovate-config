@@ -4,13 +4,31 @@
     "config:best-practices",
     ":disableDependencyDashboard",
     ":semanticCommits",
+    
     ":maintainLockFilesWeekly",
     ":prHourlyLimitNone",
     ":prConcurrentLimitNone",
+    
     "group:allNonMajor",
     "group:allDigest",
+    
+    "security:openssf-scorecard",
+    
     ":automergeMinor",
     ":automergeTypes",
     ":automergeRequireAllStatusChecks"
+  ]
+  "prBodyColumns": [
+    "Package",
+    "Type",
+    "Update",
+    "Change",
+    "Pending",
+    "References",
+    "Age",
+    "Adoption",
+    "Passing",
+    "Confidence",
+    "OpenSSF"
   ]
 }
