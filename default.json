@@ -18,17 +18,22 @@
     ":automergeTypes",
     ":automergeRequireAllStatusChecks"
   ],
-  "prBodyColumns": [
-    "Package",
-    "Type",
-    "Update",
-    "Change",
-    "Pending",
-    "References",
-    "Age",
-    "Adoption",
-    "Passing",
-    "Confidence",
-    "OpenSSF"
+  "packageRules": [
+    {
+      "matchPackagePatterns": [".*"],
+      "prBodyColumns": [
+        "Package",
+        "Type",
+        "Update",
+        "Change",
+        "Pending",
+        "References",
+        "Age",
+        "Adoption",
+        "Passing",
+        "Confidence",
+        "OpenSSF"
+      ]
+    }
   ]
 }
