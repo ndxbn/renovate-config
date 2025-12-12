@@ -18,7 +18,7 @@
     ":automergeTypes",
     ":automergeRequireAllStatusChecks",
 
-    "preview:buildkite",
+    "customManagers:biomeVersions",
     "preview:dockerCompose",
     "preview:dockerVersions"
   ],
