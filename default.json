@@ -16,7 +16,11 @@
     
     ":automergeMinor",
     ":automergeTypes",
-    ":automergeRequireAllStatusChecks"
+    ":automergeRequireAllStatusChecks",
+
+    "preview:buildkite",
+    "preview:dockerCompose",
+    "preview:dockerVersions"
   ],
   "packageRules": [
     {
