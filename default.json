@@ -22,22 +22,18 @@
     "preview:dockerCompose",
     "preview:dockerVersions"
   ],
-  "packageRules": [
-    {
-      "matchPackagePatterns": [".*"],
-      "prBodyColumns": [
-        "Package",
-        "Type",
-        "Update",
-        "Change",
-        "Pending",
-        "References",
-        "Age",
-        "Adoption",
-        "Passing",
-        "Confidence",
-        "OpenSSF"
-      ]
-    }
+  "addLabels": ["bot"],
+  "prBodyColumns": [
+    "Package",
+    "Type",
+    "Update",
+    "Change",
+    "Pending",
+    "References",
+    "Age",
+    "Adoption",
+    "Passing",
+    "Confidence",
+    "OpenSSF"
   ]
 }
